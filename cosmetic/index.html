@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic</title>
+    <link rel="stylesheet" href="./jquery.fullpage.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./swiper-bundle.css" />
+
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script src="./jquery.fullpage.min.js"></script>
+    <script src="./main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5e58bd0422.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div>
+          <img src="./logo.png" alt="로고" />
+        </div>
+        <nav>
+          <ul class="main-menu">
+            <li><a href="#오가닉이야기">오가닉 이야기</a></li>
+            <li>
+              <a href="#오가닉제품">오가닉 제품</a>
+              <ul class="sub-menu">
+                <li><a href="">미백라인</a></li>
+                <li><a href="">수분라인</a></li>
+                <li><a href="">보습라인</a></li>
+                <li><a href="">재생라인</a></li>
+              </ul>
+            </li>
+            <li><a href="#오가닉유래">오가닉 유래</a></li>
+            <li>
+              <a href="#프로모션">프로모션</a>
+              <ul class="sub-menu-p">
+                <li><a href="">Instagram</a></li>
+                <li><a href="">YouTube</a></li>
+                <li><a href="">News letter</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="menu_btn">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HAMBERGER -->
+    <div class="fullscreen_menu">
+      <div class="fullscreen-header">
+        <div class="close_btn">
+          <a href=""><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <nav>
+          <ul class="hamberger-menu">
+            <li><a href="#">마이페이지</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li class="search">
+              <a>검색</a>
+              <input id="input" type="text" />
+              <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+        </nav>
+        <div class="wrapper">
+          <div class="box-login">
+            <div class="login-text">
+              <p>LOG IN<i class="fa-solid fa-leaf"></i></p>
+              <p>Welcome to ORAGNIC</p>
+              <div class="inner-login">
+                <div class="login-form">
+                  <div>
+                    <input type="text" id="id" /><label for="id">ID</label>
+                  </div>
+                  <div>
+                    <input type="text" id="pw" /><label for="pw"
+                      >Password</label
+                    >
+                  </div>
+                </div>
+                <div class="login-pw"><a href="">비밀번호 찾기</a></div>
+                <div class="btn">
+                  <div><button>로그인</button></div>
+                  <div>
+                    <button>회원가입</button>
+                  </div>
+                  <div>
+                    <button>카카오로 로그인하기</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main id="fullpage">
+      <section class="section" data-anchor="오가닉이야기">
+        <div class="main-story">
+          <div class="main-story-text">
+            <p>Cosmetics</p>
+            <p>with Organic</p>
+            <p>자연에서 찾은 순수한 천연원료</p>
+            <div>
+              <div><a class="plus">+</a></div>
+              <p>BRAND STORY</p>
+            </div>
+          </div>
+          <div class="main-story-img">
+            <img src="./images/orgainc-story.jpg" alt="화장품사진" />
+          </div>
+        </div>
+      </section>
+      <section class="section" data-anchor="오가닉제품">
+        <div class="main-product slide">
+          <div class="main-product-text">
+            <p>Best Product</p>
+            <p>당신의 피부에</p>
+            <p>맞는 제품을 찾아보세요</p>
+            <div class="flex">
+              <div><a class="plus">+</a></div>
+              <p>PRODUCT</p>
+            </div>
+          </div>
+          <div class="main-product-box flex">
+            <div>
+              <p>BEST 1 <i class="fa-solid fa-leaf"></i></p>
+              <div>
+                <img src="./images/product-bodylotion.jpg" alt="제품사진" />
+              </div>
+            </div>
+            <div>
+              <p>BEST 2 <i class="fa-brands fa-pagelines"></i></p>
+              <div>
+                <img src="./images/product-serum.jpg" alt="제품사진" />
+              </div>
+            </div>
+            <div>
+              <p>BEST 3 <i class="fa-brands fa-envira"></i></p>
+              <div>
+                <img src="./images/product-ample.jpg" alt="제품사진" />
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="slide">
+          <div>
+            <div>
+              <p class="organic-product-text">Organic Products</p>
+            </div>
+            <div class="organic-product-box">
+              <div class ="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div><img src="./images/insta_1.jpg" alt="" /></div>
+                  <p class="hash-tag">#플라워추출물 #회복 #윤기</p>
+                  <p>오가닉 플라워 기초 세트</p>
+                  <p>₩175,000 / 1box</p>
+                </div>
+                <div class="swiper-slide">
+                  <div><img src="./images/insta_7.jpg" alt="" /></div>
+                  <p>#허브 #재생 #수분</p>
+                  <p>오가닉 아쿠아 토너</p>
+                  <p>₩60,000 / 100ml . 2pcs</p>
+                </div>
+                <div class="swiper-slide">
+                  <div><img src="./images/product-cream.jpg" alt="" /></div>
+                  <p>#화이트닝 #톤업</p>
+                  <p>오가닉 CC 크림</p>
+                  <p>₩70,000 / 70ml</p>
+                </div>
+                <div class="swiper-slide">
+                  <div><img src="./images/product-bodyoil.jpg" alt="" /></div>
+                  <p>#카렌듈라 #천연오일 #에센셜오일</p>
+                  <p>오가닉 카렌듈라 바디오일</p>
+                  <p>₩80,000 / 80ml</p>
+                </div>
+                <div class="swiper-slide">
+                  <div><img src="./images/essentialoil.jpg" alt="" /></div>
+                  <p>#티트리 #여드름 #진정</p>
+                  <p>오가닉 티트리 스팟</p>
+                  <p>₩40,000 / 30ml</p>
+                </div>
+                <div class="swiper-slide">
+                  <div><img src="./images/product-rosewater.jpg" alt="" /></div>
+                  <p>#진정 #수분</p>
+                  <p>오가닉 알로에 로즈워터</p>
+                  <p>₩30,000 / 50ml</p>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" data-anchor="오가닉유래">
+        <div class="technology">
+          <div class="technology-text">
+            <p>Organic Technology</p>
+          </div>
+          <div class="technoloy-main">
+            <div>
+              <div class="technology-main-img">
+                <img src="./images/technoloy-facility.jpg" alt="사진" />
+              </div>
+              <p>1. Manufacturing Facility</p>
+              <p>국제 GMP 제조시설</p>
+            </div>
+            <div>
+              <div class="technology-main-img">
+                <img src="./images/technology-sprout.jpg" alt="사진" />
+              </div>
+              <p>2. Natural Ingredients farm</p>
+              <p>천연원료 자체 농장</p>
+            </div>
+            <div>
+              <div class="technology-main-img">
+                <img src="./images/technology-skin.jpg" alt="사진" />
+              </div>
+              <p>3. Microbiome</p>
+              <p>마이크로바이옴</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" data-anchor="프로모션">
+        <div class="promotion">
+          <div>
+            <div class="promotion-text">
+              <p>@organic_official</p>
+              <p>Instagram</p>
+              <p>Follow +</p>
+            </div>
+            <div class="insta-img">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/insta_1.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_2.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_3.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_4.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_5.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_6.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_7.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_8.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/insta_9.jpg" alt="" />
+                  <div class="insta-heart-img">
+                    <p>❤</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="flex">
+            <div class="you-tube">
+              <p>YouTube</p>
+              <iframe
+                width="1054"
+                height="593"
+                src="https://www.youtube.com/embed/SXfqaMtAxR8"
+                title="유기농화장품 포뮬리에 디오가닉  formulier THE ORGANIC"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="news-letter">
+              <p>News letter</p>
+              <form action="">
+                <div>
+                  <div>
+                    <p>News letter</p>
+                    <p>오가닉에 대한 모든것 . 오가닉이야기</p>
+                  </div>
+                  <div>
+                    <input type="text" class="text-input" placeholder="이름" />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      class="text-input"
+                      placeholder="E-mail"
+                    />
+                  </div>
+                  <div class="text-checkbox-box">
+                    <input type="checkbox" class="text-checkbox" />
+                    <label for=""
+                      >개인정보 수집에 대해 동의합니다. (필수)</label
+                    >
+                  </div>
+                </div>
+                <div class="news-letter-box">
+                  <div class="news-letter-btn">
+                    <button>구독신청</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section fp-auto-height">
+        <div class="flex">
+          <div class="logo-img"><img src="./logo.png" alt="로고" /></div>
+          <div>
+            <p class="footer-title">INFO</p>
+            <p>대표이사 : 김인아 (주)오가닉</p>
+            <p>주소 : 서울시 서초구 잠원로 00</p>
+            <p>Fax : 02 - 123 - 4568</p>
+          </div>
+          <div>
+            <p class="footer-title">CS CENTER</p>
+            <p>고객상담센터 1544 - 4568</p>
+            <p>평일 : 10 : 00 ~ 18 : 00</p>
+            <p>카카오 채널 : 오가닉</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div>
+          <div class="border"></div>
+          <p>Copyright © 2023 ORGANIC .All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+    <script>
+      var swiper = new Swiper(".insta-img", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        loop:true,
+        autoplay: {
+          delay : 3000,
+          disableOnInteraction: true
+        }
+
+      });
+      
+      var swiper = new Swiper(".organic-product-box", {
+        slidesPerView: 3,
+        spaceBetween: 15,
+        loop:true,
+        
+        pagination:{
+        el:'.swiper-pagination',
+        clickable: true,
+      }
+      });
+      
+    
+    </script>
+    
+  </body>
+</html>
